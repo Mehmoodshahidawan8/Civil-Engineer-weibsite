@@ -1,0 +1,106 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* Navbar Styling */
+  header {
+    background-color: #FFD700;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+  }
+  
+  .logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  .company-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #000;
+  }
+  
+  /* Social Media Section */
+  .social-media {
+    background-color: #FFF8DC;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .social-media h2 {
+    color: #FFD700;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .social-links a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-links img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .social-links a:hover {
+    transform: scale(1.1);
+    color: #000;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #FFD700;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
